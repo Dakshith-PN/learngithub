@@ -1,0 +1,130 @@
+*{
+  margin: margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+/*------Home page-----*/
+html{
+  scroll-behavior: smooth;
+}
+.navbar{
+  background-color: green;
+  border: 2px solid blue;
+  border-radius: 4px;
+  padding: 8px 2px;
+  position: sticky;
+  top: 2px;
+}
+ #h1{
+  text-align: center;
+  border-radius: 5px;
+  color: red;
+}
+#h1 #span{
+  color: blue;
+  
+}
+.herosection a{
+  margin: 7px;
+  padding: 3px;
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+}
+.main{
+  margin-top: 5rem;
+  text-align: center;
+  justify-content: center;
+}
+
+/*------services page-----*/
+.head{
+  text-align: center;
+  margin-top: 50px;
+}
+.box1{
+  border: 1px solid black;
+  padding: 14px;
+  margin: 9px 2px;
+  border-radius: 10px;
+  background-color: #ff1;
+  
+}.boxhead{
+  text-align: center;
+}
+
+/* ------about us page-----*/
+section .about{
+  color: red;
+  border: 2px solid blue;
+  border-radius: 5px;
+  text-align: center;
+  padding: 30px 10px;
+  margin: auto;
+  width: 50%;
+  display: block;
+}
+#about span{
+  color: blue;
+}
+.aboutus{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 25px;
+}
+.info{
+  text-align: center;
+  
+}
+#ankle{
+  margin: 1px 8px 0px 90px;
+  
+}
+
+/*-----contact form------*/
+.container{
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-top: 10px;
+  
+}
+form input {
+  margin: 5px;
+  border: 1px solid black;
+  outline: none;
+  padding: 2px;
+  background-color: #0555;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+form textarea{
+margin: 5px;
+  border: 1px solid black;
+  outline: none;
+  padding: 2px;
+  background-color: #0555;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+.container h1{
+  text-align: center;
+}
+#contact{
+  margin: 20px;
+  
+}
+#submit{
+  background-color: blue;
+  color: white;
+  border-radius: 7px;
+}
+
+
+/*------footer section-----*/
+footer{
+  background-color: black;
+  color: white;
+  padding: 7px;
+  
+}
